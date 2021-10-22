@@ -124,20 +124,25 @@ display: inline-flex;
 
 }
 
+#navbar ul  {
+  color: yellow;
+  
+  }
+
 #navbar ul li a {
   font-size: 20px;
   font-weight: 800;
-  display: block;
+
   padding: 20px;
   align-items: center;
   color: #f5f5f5d3;
   
 }
 
+
+
 #icono {
 width: 10%;
-
-
 }
 
 /* Showcase */
@@ -181,6 +186,7 @@ width: 10%;
   width: 33%;
   padding: 50px;
 }
+
 
 .service-box img {
   border-radius: 100%;
@@ -292,15 +298,20 @@ footer{
 
 
 .content-foo p{
-  color: #ccc;
+  color: rgb(0, 0, 0);
 }
 
 .titulo-final{
   text-align: center;
   font-size: 24px;
   margin: 20px 0 0 0;
-  color: #9e9797;
+  color: #000000;
 }
+
+#navbar li :hover {
+  color: yellow;
+  
+  }
 
 @media (max-width: 600px) { 
 
@@ -320,28 +331,79 @@ font-size: 8px;
 
 #showcase{
 
-height: 600px;
+  height: 600px;
 
 }
 
 #showcase .container{
 
-margin-top: 150px;
+  margin-top: 150px;
   
-  }
+}
 
 
   #services {
-    text-align: left;
+    text-align: justify;
     padding-top: 0px;
     padding-bottom: 0px;
   
   }
-
-  .service-box p {
+  
+  #services h4 {
+    padding-bottom: 20px;
     text-align: center;
   }
+  
+  
+  .service-box {
+    float: none;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  
+  .service-box img {
+    border-radius: 100%;
+    border: solid black 5px;
+    width: 220px;
+    height: 150px;
+    margin-left: 100px;
+  }
 
+
+  #pizza  img{
+
+    margin-left: 90px;
+    
+  }
+
+  #pizza  p{
+  text-align: justify;
+    
+  }
+
+  #lasana  img{
+
+    margin-left: 90px;
+    
+  }
+
+  #lasana  p{
+  text-align: justify;
+    
+  }
+
+  #spaguetti  img{
+
+    margin-left: 90px;
+    
+  }
+
+  #spaguetti  p{
+  text-align: justify;
+    
+  }
+  
 
 
   
