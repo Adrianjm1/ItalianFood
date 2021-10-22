@@ -323,18 +323,13 @@ footer{
 #navbar {
 
   position:fixed  ;
+  top: 0;
 }
 
 #navbar a {
 font-size: 8px;
 }
 
-
-#showcase h1{
-
-margin-top: 30px;
-
-}
 
 
 
@@ -419,6 +414,10 @@ margin: auto;
   text-align: justify;
 
     
+  }
+
+  #gastronomia {
+    height: 120%;
   }
 
 
